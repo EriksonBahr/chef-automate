@@ -7,6 +7,6 @@ client_key               File.join(base_dir, '.chef', 'private.pem')
 syntax_check_cache_path  File.join(base_dir, '.chef', 'syntax_check_cache')
 cookbook_path            [File.join(base_dir, 'cookbooks')]
 
-chef_server_url          'https://chef-automate-0ckoqq3u0lm3qpb8.us-east-1.opsworks-cm.io/organizations/default'
+chef_server_url          'https://chef-test-dt0rki3xamcs2kpy.us-east-1.opsworks-cm.io/organizations/default'
 ssl_ca_file              File.join(base_dir, '.chef', 'ca_certs', 'opsworks-cm-ca-2016-root.pem')
 trusted_certs_dir        File.join(base_dir, '.chef', 'ca_certs')

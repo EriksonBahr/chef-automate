@@ -4,8 +4,8 @@
  ############################
 
  # Required environment variables
- $env:CHEF_SERVER_NAME = "chef-automate" # Name of your Chef Server
- $env:CHEF_SERVER_ENDPOINT = "chef-automate-0ckoqq3u0lm3qpb8.us-east-1.opsworks-cm.io" # FQDN of your Chef Server
+ $env:CHEF_SERVER_NAME = "chef-test" # Name of your Chef Server
+ $env:CHEF_SERVER_ENDPOINT = "chef-test-dt0rki3xamcs2kpy.us-east-1.opsworks-cm.io" # FQDN of your Chef Server
  $env:REGION = "us-east-1" # Region of Chef Server (us-east-1, us-west-1 or eu-west-1)
  $env:CHEF_NODE_NAME = "$(Invoke-WebRequest http://169.254.169.254/latest/meta-data/instance-id)" # Use EC2 Instance ID as Chef Node Name
 

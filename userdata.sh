@@ -3,8 +3,8 @@
 # required settings
 NODE_NAME="$(curl --silent --show-error --retry 3 http://169.254.169.254/latest/meta-data/instance-id)" # this uses the EC2 instance ID as the node name
 REGION="us-east-1" # use one of us-east-1, us-west-2, eu-west-1
-CHEF_SERVER_NAME="chef-automate" # The name of your Chef Server
-CHEF_SERVER_ENDPOINT="chef-automate-0ckoqq3u0lm3qpb8.us-east-1.opsworks-cm.io" # The FQDN of your Chef Server
+CHEF_SERVER_NAME="chef-test" # The name of your Chef Server
+CHEF_SERVER_ENDPOINT="chef-test-dt0rki3xamcs2kpy.us-east-1.opsworks-cm.io" # The FQDN of your Chef Server
 
 # optional
 CHEF_ORGANIZATION="default"    # AWS OpsWorks for Chef Server always creates the organization "default"
